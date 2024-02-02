@@ -30,6 +30,7 @@ public class ColleagueRecognitionPage {
         clickElement(By.xpath("//button[contains(@class, 'btn-secondary') and contains(@class, 'ng-binding') and contains(@class, 'ng-scope') and normalize-space(.)='Make Formal']"));
         waitForSeconds(10);
         clickElement(By.xpath("//*[@id=\"new_post_modal\"]/div[2]/div[2]/button[1]"));
+        waitForSeconds(10);
         clickElement(By.xpath("//button[contains(text(),'Post')]"));
         waitForSeconds(3);
     }
