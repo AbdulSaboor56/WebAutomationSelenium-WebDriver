@@ -18,7 +18,7 @@ public class ColleagueRecognitionPage {
     }
 
     public void recognizeAndTagColleague(String colleagueName, String points, String corporateValue, String toMakePostAIGenerated) {
-        clickElement(By.xpath("//body/div[1]/main[1]/div[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/timeline[1]/div[1]/div[3]/div[1]/ul[1]/li[1]/a[1]/i[1]"));
+        clickElement(By.xpath("//a[@title='Recognize Colleague']"));
         sendKeysToElement(By.xpath("//input[@placeholder='Who are you recognizing? Add as many people as you want.']"), colleagueName);
         clickElement(By.xpath("//li[@class='suggestion-item ng-scope selected']"));
         sendKeysToElement(By.xpath("//input[@name='bravosInput']"), points);
