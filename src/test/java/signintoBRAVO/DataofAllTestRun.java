@@ -13,7 +13,7 @@ public class DataofAllTestRun extends BravoLaunch {
 
     @AfterClass
     public void closeBrowserOnce() {
-     //   closeBrowser();
+      //closeBrowserOnce();
     }
 
     @Test
